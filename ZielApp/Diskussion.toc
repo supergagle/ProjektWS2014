@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {section}{\numberline {2}Philipp's Vorschlag}{1}{section.2}
+\contentsline {subsection}{\numberline {2.1}Produktziel}{1}{subsection.2.1}
+\contentsline {section}{\numberline {3}Rashad's Vorschlag}{1}{section.3}
+\contentsline {subsubsection}{\numberline {3.0.1}Produktbeschreibung}{1}{subsubsection.3.0.1}
+\contentsline {subsubsection}{\numberline {3.0.2}Contras}{1}{subsubsection.3.0.2}
+\contentsline {section}{\numberline {4}Glossary}{2}{section.4}
