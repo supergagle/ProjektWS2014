@@ -1,7 +1,17 @@
-\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
-\contentsline {section}{\numberline {2}Philipp's Vorschlag}{1}{section.2}
-\contentsline {subsection}{\numberline {2.1}Produktziel}{1}{subsection.2.1}
-\contentsline {section}{\numberline {3}Rashad's Vorschlag}{1}{section.3}
-\contentsline {subsubsection}{\numberline {3.0.1}Produktbeschreibung}{1}{subsubsection.3.0.1}
-\contentsline {subsubsection}{\numberline {3.0.2}Contras}{1}{subsubsection.3.0.2}
-\contentsline {section}{\numberline {4}Glossary}{2}{section.4}
+\contentsline {section}{\numberline {1}Philipp}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Vorschlag 1}{1}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}Produktziel}{1}{subsubsection.1.1.1}
+\contentsline {subsection}{\numberline {1.2}Vorschlag 2}{1}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}Zwei Modi}{1}{subsubsection.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2}Use Case im Unterricht}{2}{subsubsection.1.2.2}
+\contentsline {subsubsection}{\numberline {1.2.3}Erg\IeC {\"a}nzung von Rashad}{2}{subsubsection.1.2.3}
+\contentsline {subsubsection}{\numberline {1.2.4}Leider existiert schon}{2}{subsubsection.1.2.4}
+\contentsline {subsection}{\numberline {1.3}Vorschlag 3}{2}{subsection.1.3}
+\contentsline {section}{\numberline {2}Rashad}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Vorschlag 1}{2}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Produktbeschreibung}{2}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Contras}{2}{subsubsection.2.1.2}
+\contentsline {subsection}{\numberline {2.2}Vorschlag 2}{2}{subsection.2.2}
+\contentsline {section}{\numberline {3}Kenan}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}Vorschlag 1}{3}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}M\IeC {\"o}gliche Beispielsfunktianalit\IeC {\"a}ten}{3}{subsubsection.3.1.1}
