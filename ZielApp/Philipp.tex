@@ -74,3 +74,33 @@ Cursor, der sich unabhängig vom der (absoluten) Position des Fingers bewegt.
 
 \subsection{Vorschlag 4}
 
+Noch ein Vorschlag für ein Programm, das von der theoretischen/mathematischen/algorithmischen Seite her vllt. sehr anspruchsvoll wäre.
+Außerdem geht es bei diesem Vorschlag eher um ein Programm für den Computer als um eine Handy-App.
+
+Mein Vater hat mir mal erzählt, dass die Rektorin an seiner Schule \footnote{mein Vater ist dort ein Lehrer und bilden dort Erzieherinnen aus. Aber das ist jetzt eigentlich für unser Programm unwichtig.} immer viel Arbeit hat, wenn sie die Stundenpläne zusammenstellt. Das ist anscheinend sehr schwierig, das so zu Planen, dass nicht zwei Klassen gleichzeitig in einem Raum sind, oder ein Lehrer gleichzeitig an zwei Orten sein muss, oder eine Klasse gleichzeitig an zwei Orten. Und dass aber auch ein Lehrer möglichst mehrere Stunden nacheinander unterrichten muss, und nicht an einem Tag wegen nur einer Unterrichtsstunde an die Schule kommen muss, und so weiter.
+
+Er hat mich gefragt, ob man da nicht einen Algorithmus entwickeln könnte, der einem dabei hilft, einen optimalen Stundenplan zu entwickeln.
+
+Wahrscheinlich wäre es halt schwierig das Stundenplanproblem erst einmal sinnvoll zu formalisieren. Also das Problem mathematisch sauber zu definieren. Man müsste überlegen 
+was für eingabe daten gegeben sind, 
+	vllt. unterrichtsstunden u, zu denen ein Lehrer l(u) und eine Klasse k(u) gehört.
+	und raumzeitslots s, bestehend aus einem Raum und einem Zeitintervall t(s) (z.B.: 8:00 uhr bis 8:45) in dem der Raum frei ist.
+
+und was für eine Lösung erwartet wird. 
+Was ist ein Stundenplan überhaupt, mathematisch gesehen?
+	vllt. eine  Abbildung f: U -> S von der Menge aller Unterrichtsstunden U in die Menge der Raumzeitslots S, so dass
+	- nicht zwei Klassen gleichzeitig in einem Raum sind, d.h. f ist injektiv
+	- nicht ein Lehrer gleichzeitig an zwei Orten sein muss, d.h. wenn t(f(u)) = t(f(v)) dann l(u) ungleich l(v) 
+	- nicht eine Klasse gleichzeigit an zwei Orten sein muss, d.h. wenn t(f(u)) = t(f(v)) dann k(u) ungleich k(v) 		
+Wie definiert man die Qualität von einem Stundenplan überhaupt mathematisch?
+
+Und dann müsste man wohl auch noch in Algo II gut aufpassen, ob es da irgendwelche algorithmen gibt, die man auf das problem anwenden kann. Oder sich sonstwo erkundigen.
+
+\subsection{Vorschlag 5}
+
+Eine App wo sich vllt. die Frage stellt, ob man so etwas überhaupt braucht.
+
+Man kann mit der App in ein Gebäude (z.B. in eine große Kirche) gehen, dann kurz still sein während man in der App auf eine Taste drückt. Dann sendet das Handy ein Signal aus und nimmt das den Hall / das Echo auf.
+
+Wenn man dann danach nach Hause geht kann man die App aktivieren. Und wenn man dann in sein Handy reinspricht, dann kann das Handy genau das Echo aus dem Gebäude simulieren. Oder vllt. könnte man auch singen oder ein Instument spielen und sich anhören wie sich das mit der Akustik in der Kirche anhören würde. 
+
