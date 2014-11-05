@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  30 OCT 2014 14:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  5 NOV 2014 14:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -878,39 +878,42 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.53 
-      [1]) (./Rashad.tex [2]) (./Kenan.tex [3])
+      [1] [2]) (./Rashad.tex [3]) (./Kenan.tex [4])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 153.
- [4]
+ [5]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 153.
  (./Diskussion.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 153.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 153.
 Package rerunfilecheck Info: File `Diskussion.out' has not changed.
-(rerunfilecheck)             Checksum: 8A9599579476EE370B749746170703CB;694.
+(rerunfilecheck)             Checksum: 4F2F3DA38FCCF20ECDFFE088F0B12CD5;903.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 153.
  ) 
 Here is how much of TeX's memory you used:
- 11322 strings out of 493315
- 168643 string characters out of 6137904
- 290928 words of memory out of 5000000
- 14562 multiletter control sequences out of 15000+600000
- 17761 words of font info for 52 fonts, out of 8000000 for 9000
+ 11353 strings out of 493315
+ 168981 string characters out of 6137904
+ 289928 words of memory out of 5000000
+ 14578 multiletter control sequences out of 15000+600000
+ 22246 words of font info for 64 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 48i,7n,52p,589b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,8n,52p,720b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 /usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></u
-sr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr
-/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/l
-ocal/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/loc
-al/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local
-/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/t
-exlive/2013/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on Diskussion.pdf (6 pages, 174400 bytes).
+sr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr
+/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/l
+ocal/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/loc
+al/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local
+/texlive/2013/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texli
+ve/2013/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive
+/2013/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2
+013/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on Diskussion.pdf (7 pages, 214656 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 125 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 89 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 181 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
