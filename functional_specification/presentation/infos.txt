@@ -1,9 +1,0 @@
-Vortrag des/der Phasenverantwortlichen
-- Pflicht-, Wunsch- und Abgrenzungskriterien vorstellen
-- Übersicht der Funktionalität und Testfälle (nicht alle Details aus dem Pflichtenheft)
-- Screenshots der GUI
-- Richtlinie: 20 Minuten
-
-
-
- Also wie ich die Präsentation gerade machen würd ist so: Sehr kurze Einführung + Testszenario für Routing (nur mit Musskriterien) mit einer kleinen Geschichte, hinterlegt mit GUI-Bildern, dabei immer auf die dazugehörigen Musskriterien hinweisen + Testszenario für Admin Tool (im selben Stil wie davor) + Product-Data das mit dem XML + Systemmodell-Bilder von Sebastian + lustiges Mini-Testszenario mit Wunschkriterien (Erasmus-Student, der mit Laptop auf den Händen Weg sucht -> Android App) als Abschluss
