@@ -1,0 +1,78 @@
+%\emph{Necessary for the mandatory criteria.}
+
+\subsubsection{Routing Tool}
+\paragraph{Displaying the map}
+\begin{numerate}[FMR]
+	\item[Show Campus Map]
+	A \textit{map} of the campus is displayed.
+	\item[Show Floor plan map]
+	A \textit{floor plan map} of a building can be displayed.
+	%\item[Highlight Subgraph]
+	%The given subgraph is displayed on the map. This can in particular be used to display a location or a route.
+	\item[Show Route]
+	A calculated route is displayed on the \textit{background image} in a red color.
+	\item[Show Way under Building]
+	A way passing under a building is displayed in a blue color.
+	\item[Select Point]
+	The user is able to select a point on the \textit{map}, which will be marked. This can be used to select start and destination by clicking on the \textit{map}.
+
+
+\end{numerate}
+
+\paragraph{Navigation in the map}
+\begin{numerate}[FMR]
+	\item[Zoom]
+	The user can upscale and downscale the displayed section of the \textit{background image} with the corresponding buttons.
+	%The user can view a section of the map and is able to upscale and downscale this section.
+	\item[Pan]
+	The user can move the displayed section of the \textit{background image} by using the mouse.
+	%The user can view a section of the map and is able to move this section.
+	\item[Enter Building]
+	The user can enter a building by performing a mouse double-clicking on it.
+	\item[Switch Floor plan map inside a Building]
+	%If the user has entered a building, he can move a slider to view the different floorplans of the building and switch between them.
+	If the user has entered a building, he can switch his view between different \textit{floor plan maps} of the building by moving a special slider provided.
+	\item[Leave Building]
+	The user can leave a building by clicking the provided ``outside map'' icon in the corner of the \textit{floor plan map} or by double-clicking outside of the \textit{floor plan map}.
+\end{numerate}
+
+\paragraph{Searching and Routing}
+
+\begin{numerate}[FMR]
+	\item[Search Location]
+The user can search for a location without requesting a route to it by typing the data of it either in the start or in the destination \textit{search field} (/FMR140/).
+
+	\item[Find Search Suggestions]
+	When the user types into a \textit{search field}, the current input is compared to the \textit{searchable information} of each building, to find possible completions. The resulting list is displayed.
+
+	%\item[Find Nearest Vertex]Find nearest vertex in the underlying graph of the map by clicking on the map
+
+\item[Compute Route]
+		The user can type in a starting point and an end point into two different text fields (/FMR140/). By clicking a button,
+		the computation of the shortest route (for pedestrians) between these two points starts. When computation is completed the computed route is displayed. If the destination is a building, the route will end at the nearest entrance of that building.
+
+
+\item[Search Field Input]
+%The data in the textfields can be: a building number, a building number combined with a room number, an address of a building (road and housenumber) or the name of the building/room/location
+%(Does this not belong to product data?????)
+The user can search a location by name, building number, room number and address.
+
+%\item[Display Route]
+%Display route (uses Highlight subgraph -> need to be formulated as separate functionality ???)
+%\begin{addmargin}[7mm]{0mm}
+			%After a route is calculated, the user can see the calculated route as a colored path on the \textit{map}. The length of that route is also displayed.
+%		\end{addmargin}
+
+%\item[Route to Nearest Entrance]
+
+
+\item[Output Textbased Description]
+The route can be shown in a textual form like: ``Walk for 100m. Turn right. Walk for 25m. You have reached your
+destination.'' This can be done by clicking on the corresponding option.
+
+\item[Discard Route]
+			If the user wants to discard the calculated route from the \textit{map}, he can either calculate a new one that will then be shown instead the previous or
+			simply use the ``Remove route'' function that the tool provides.
+
+
+\end{numerate}

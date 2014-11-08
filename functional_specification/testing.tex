@@ -1,0 +1,217 @@
+\subsection{Routing - Test cases}
+
+\paragraph{Displaying the map}
+\begin{numerate}[RTC]
+\item Show Campus \textit{map} (/FMR010/). \\*
+	\textbf{Precondition:} The user starts the program. \\*
+	\textbf{Expected outcome:} The \textit{map} of the campus is displayed.
+\item Select Point (/FMR050/). \\*
+	\textbf{Precondition:} The user views the campus map and he selects any point on the map. \\*
+	\textbf{Expected outcome:} The point selected on the \textit{map} is marked.
+\item Show \textit{Floor plan map} (/FMR020/). \\*
+	 \textbf{Precondition:} The user views the campus map and then selects a building on it \\*
+	 \textbf{Expected outcome:} The ground \textit{floor plan map} of the selected building will be displayed
+\item Show Route (/FMR030/). \\*
+	\textbf{Precondition:} The user has typed a starting point and destination in the corresponding text fields and clicks the ``Go'' button (see \textit{GUI}, Routing view). \\*
+	\textbf{Expected outcome:} A calculated route is displayed on the \textit{background image} in a red color.
+\item Show way under building (/FMR040/). \\*
+	\textbf{Precondition:} The user searched for the shortest path between ``Audimax'' and ``H.S.a.F''. \\*
+	\textbf{Expected outcome:} The shortest path between selected buildings will be displayed (see /RTC040/), especially the way passing under ``Infobau'' is displayed in a blue color.
+\end{numerate}
+
+\paragraph{Navigation in the map}
+
+\begin{numerate}[RTC]
+\item Upscale and downscale the displayed section of the \textit{background image} with corresponding buttons (/FMR060/).
+\item Pan the displayed section of the background image by using the mouse (/FMR070/)
+\item Enter Building (/FMR080/). \\*
+	\textbf{Preconditions:} The user views the exterior map and then he double-clicks on a building. \\*
+	\textbf{Expected outcome:} The ground \textit{floor plan map} of the selected building replaces the exterior view.
+\item Switch \textit{Floor plan map} inside a building (/FMR090/). \\*
+	\textbf{Preconditions:} The user has entered the building and he moves the slider in order to switch to another floor. \\*
+	\textbf{Expected outcome:} The current \textit{floor plan map} view is replaced by selected floor plan's map view.
+\item Leave Building (/FMR100/). \\*
+	\textbf{Precondition:} The user has entered a building and he clicks on ``outside map'' icon in the corner of the \textit{floor plan map}. \\*
+	\textbf{Expected outcome:} The current \textit{floor plan map} view is replaced by map view of the exterior.
+\end{numerate}
+
+
+\paragraph{Searching and Routing}
+
+\begin{numerate}[RTC]
+\item Search Location (/FMR110/). \\*
+	\textbf{Preconditions:} The user has typed the name of a location in the \textit{text field} and clicks the ``Go'' button (see \textit{GUI}, Routing view). \\*
+	\textbf{Expected outcome:} The found location is highlighted on the \textit{map}.
+\item Find Search Suggestions (/FMR120/). \\*
+	\textbf{Preconditions:} The user types into a \textit{search field} the initial letters of a building's \textit{searchable information}.\\*
+	\textbf{Expected outcome:} The resulting list of possible completions is displayed.
+\item Compute Route (/FMR130/). \\*
+	\textbf{Preconditions:} The user has typed a starting point and destination in the corresponding text fields and clicks the ``Go'' button (see \textit{GUI}, Routing view). \\*
+	\textbf{Expected outcome:} The shortest path between these two points is computed and and displayed, in case the destination is a building, the route ends at the nearest entrance of that building.
+\item Text Field Input (/FMR140/). \\*
+	\textbf{Preconditions:} The user has typed \textit{searchable information} into a \textit{search field} and clicks the ``Go'' button (see \textit{GUI}, Routing view). \\*
+	\textbf{Expected outcome:} The typed information is searched and displayed.
+\item Output text based Description (/FMR150/). \\*
+	\textbf{Preconditions:} The user has typed a starting point and destination in the corresponding text fields and clicks the ``Go'' button (see \textit{GUI}, Routing view). After the shortest path has been displayed, he selects ``Show text output'' form the menu. \\*
+	\textbf{Expected outcome:} The route is shown in a textual form. See example in /FMR150/.
+\item Discard Route (/FMR160/)\\*
+	\textbf{Preconditions:} The calculated shortest route between entered points is displayed on the \textit{map} and user selects ``Remove route''. \\*
+	\textbf{Expected outcome:} The displayed route is discarded and the \textit{map} of the campus is displayed.
+\end{numerate}
+
+\subsection{Administration tool - Test cases}
+
+\begin{numerate}[ATC]
+
+\item Display \textit{Routing Graph} (/FMA010/). \\*
+	\textbf{Preconditions:} The administrator loads a map. \\*
+	\textbf{Expected outcome:} The \textit{routing graph} is displayed on top of the \textit{background image}.
+\item Create a \textit{map} (/FMA020/)\\*
+	\textbf{Preconditions:} The administrator selects ``Create Map'' from the menu in order to create a new \textit{map} and selects a \textit{background image} to be loaded. \\*
+	\textbf{Expected outcome:} \textit{The selected background image} is loaded and at the beginning there is an empty \textit{routing graph} on it.
+\item Open a \textit{map} (/FMA030/). \\*
+	\textbf{Preconditions:} The administrator selects ``Open'' from the menu and selects the \textit{map}. \\*
+	\textbf{Expected output:} The selected \textit{map} is displayed.
+\item Save a \textit{map} (/FMA040/). \\*
+	\textbf{Preconditions:} The administrator views a \textit{map} and selects ``Save'' from the menu or presses CTRL + S. \\*
+	\textbf{Expected outcome:} The current \textit{map} is saved.
+\item Exchange \textit{Background Image} (/FMA050/). \\*
+	\textbf{Preconditions:} The administrator views a \textit{map} and selects ``Load new background image'' from the menu and selects his desired \textit{background image}. \\*
+	\textbf{Expected outcome:} The selected \textit{background image} is loaded and the \textit{background image} of the currently viewed \textit{map} is replaced with the new one.
+\item Set Scale (/FM060/). \\*
+	\textbf{Preconditions:} The administrator marks two points on the \textit{background image} and after right-clicking he selects ``Set Scale'' from menu-list and enters the distance of the marked points in meter. \\*
+	\textbf{Expected outcome:} The entered information is saved and set as the scale of the current viewed \textit{map}.
+\item Create Vertex (/FMA070/). \\*
+	\textbf{Preconditions:} The administrator right-clicks on the \textit{background image} and selects ``Create new Vertex'' from arising menu-list. \\*
+	\textbf{Expected outcome:} The new vertex is created and is available at the selected point on the current \textit{map}.
+\item Create Edge (/FMR080/). \\*
+	\textbf{Preconditions:} The administrator selects two vertices and then after right-clicking selects ``Add new Edge'' from arising menu-list. \\*
+	\textbf{Expected outcome:} The new edge is created.
+\item Create Building (/FMA090/). \\*
+	\textbf{Preconditions:} The administrator draws a polygon on a map and then after right-clicking on it selects ``Save as Building'' from arising menu-list.\\*
+	\textbf{Expected outcome:} The new building is created and drawn polygon represents the outline of this building.
+\item Add Edges between \textit{Floor plan maps} (/FMA100/). \\*
+	\textbf{Preconditions:}	The administrator has created a building with two \textit{floor plan maps}. He selects the ``Add stairs'' tool and clicks on one vertex on each floor. \\*
+	\textbf{Expected outcome:} An edge between the selected floor plans is created.
+\item Select Vertex or Edge (/FMA110/). \\*
+	\textbf{Preconditions:} The administrator selects any vertex or any edge (test both cases) by left-clicking on it.\\*
+	\textbf{Expected outcome:} The selected vertex or edge is highlighted in another color.
+\item Select Building (/FMA120/). \\*
+	\textbf{Preconditions:} The administrator selects any building by left-clicking on it.\\*
+	\textbf{Expected outcome:} The outline of the selected building is highlighted in another color.
+\item Modify \textit{Property} values (/FMA130/). \\*
+	\textbf{Preconditions:} The administrator selects a vertex, edge or building (test all cases) and adds new properties or edits existing properties in the arising \textit{GUI} Window (see \emph{Figure 6}). \\*
+	\textbf{Expected outcome:} The added properties or edited properties for the selected vertex, edge or building are updated.
+\item Move Vertex (/FMA140/). \\*
+	\textbf{Preconditions:} The administrator selects a vertex and drags it. \\*
+	\textbf{Expected outcome:} The selected vertex is moved to the position the administrator drags it to.
+\item Move Edge (/FMA150/). \\*
+	\textbf{Preconditions:} The administrator moves end-vertices of an edge (see /ATC140/).\\*
+	\textbf{Expected outcome:} The edge is moved in accordance with the movement of the end-vertices of this edge.
+\item Move Building (/FMA160/). \\*
+	\textbf{Preconditions:} The administrator selects a building and drags it to the desired position. \\*
+	\textbf{Expected outcome:} The selected building is moved to the position the administrator drags it to.
+\item Remove Vertex or Edge (/FMA170/). \\*
+	\textbf{Preconditions:} The administrator selects a vertex or edge (test both cases) and presses the delete key on the keyboard.\\*
+	\textbf{Expected outcome:} The selected vertex or edge is removed and is not on the currently viewed \textit{map} anymore.
+\item Remove Building (/FMA180/). \\*
+	\textbf{Preconditions:} The administrator selects a building and presses the delete key on the keyboard. \\*
+	\textbf{Expected outcome:} The selected building is remove and is not on the currently viewed \textit{map} anymore.
+\end{numerate}
+
+\subsection{Routing - Test scenarios}
+
+\paragraph{Test scenario 1, covering all product functions of the routing tool} ~\\
+
+The freshman KIT student Jonas Schneider has to attend a lecture at 11:30 AM. Unfortunately, it is now 11:15  and he has no idea where the lecture hall is. He remembers he downloaded the KIT Campus Routing System \programName~the other day.\\
+He boots his laptop and starts the routing program, which presents him with a \textit{map} of the KIT campus (/FMR010/). He remembers the lecture hall was called something like ``H\"orsaal am Fa...'', so he types that into the text field that says ``To:'' (/FMR140/). He is immediately presented with a list of
+search suggestions, the first one being ``H\"orsaal am Fasanengarten'' (/FMR120/).
+He clicks that suggestion, resulting in it getting put into the ``To:''-field. With the ``From:''-field still being empty, he clicks the button captioned ``Go'' to start the search (/FMR110/). Now the \textit{map} view shows the highlighted outline of the ``H\"orsaal am Fasanengarten'' on the \textit{map}.\\
+He now decides to use the program to calculate the shortest route to the lecture hall.
+He knows he is standing right in front of the ``Audimax'' lecture hall, so he wants to set this as the starting point. To do that, he looks for the ``Audimax'' on the presented campus \textit{map}, right-clicks it and selects ``From here'' (/FMR050/), putting ``Audimax'' into the ``From:''-field.
+Now, with ``Audimax'' in the ``From:''-field and ``H\"orsaal am Fasanengarten'' in the ``To:''-field, he clicks the ``Go''-button again to start the calculation of the route (/FMR130/). Almost immediately, a route is displayed on the campus \textit{map} (/FMR030/ and /FMR160/).
+He zooms (/FMR060/) and pans (/FMR070/) the \textit{map} a bit to study the details of the route.\\
+By doing that, he notices that while most of the route is colored red, a small portion is blue, indicating that this part is going under or through a building (/FMR040/). He selects ``Route in text form'' from the program menu. For that part of the route, it says ``Pass under the building'' (/FMR150/).\\
+After that, he wants to know how to get into the lecture hall. For this, he double-clicks the lecture hall to make the program enter the building (/FMR080/). The floor plan of ``H\"orsaal am Fasanengarten'' is shown (/FMR020/), along with the route, now starting at the entrance of the building's lobby and ending at the entrance of
+the lecture hall which makes up almost all of the building. Earlier, he got a text from his colleagues, informing him that they are on the second floor in the lecture hall. He uses the slider next to the \textit{map} to change the floor plan view to show the second floor (/FMR090/) and notices that he can easily get up there by
+using the stairs located in the lobby. \\
+He clicks the iconized outside-\textit{map} to exit the building (/FMR100/) and checks the route again. He then exits the program, shuts down his laptop and starts heading to the lecture hall, still barely making it on time.
+
+\newpage
+\subsection{Administration tool - Test scenarios}
+
+\paragraph{Test scenario 2, \textit{map} creation and editing} ~\\
+The third-year KIT student Andrew Ryan noticed that many freshmen have trouble finding their way on the campus because the university administration did not provide a good map. He decides that he is going to make one, using the administration tool of the KIT Campus Routing System \programName.\\
+First, he starts the program and chooses ``Create new map'' from the program menu, after which he is prompted to choose an image file to serve as the \textit{background image} for the \textit{map} (/FMA020/). He chooses the pdf-map of the campus that he found on the university website.
+The main view now shows the pdf-map as \textit{background image}. He chooses ``Set scale'' from the program menu and clicks on two points on the \textit{background image} that he knows are 100 meters apart (/FMA060/). With the scale set, he selects the ``Create vertex'' tool and places ten vertices on the
+\textit{background image} to represent waypoints of the \textit{graph} (/FMA070/). He chooses the ``Create edge''-tool and clicks two vertices to connect them with an edge and repeats that until he has mapped out all the ways between the ten vertices he just placed (/FMA080/).\\
+Since one of the edges he placed contains a small set of stairs, he wants to somehow add that information to the \textit{graph}. To do this, he uses the ``Select''-tool and clicks the vertex, resulting in the vertex being highlighted in a different color (/FMA110/). Immediately, the properties of the vertex are shown.
+He selects the ``Contains stairs'' \textit{property} and sets it to ``TRUE'' (/FMA130/).\\
+Then he notices that he misplaced one vertex and connected two vertices with an edge where there shouldn't be one. He selects the ``Move''-tool and drags the vertex (and also the edges connected to it) to the correct position (/FMA140/ and /FMA150/).
+To remove the misplaced edge, he selects the ``Delete edge'' tool and clicks it, resulting in the edge vanishing from the \textit{graph} (/FMA170/). \\
+He is done for now, so he wants to save the \textit{map}. To do this, he chooses ``Save'' from the program menu, types ``kitmap.xml'' as filename and clicks the corresponding button to save the \textit{map} (/FMA040/). He then exits the program by closing the window.
+
+\paragraph{Test scenario 3, building creation and editing} ~\\
+Andrew wants to continue working on the \textit{map} and wants to add the building ``H\"orsaal am Fasanengarten''. He starts the admin tool of the KIT Campus Routing System \programName, chooses ``Load'' from the menu and selects ``kitmap.xml'', the file he saved earlier (see Test scenario 2) (/FMA030/).\\
+The \textit{background image} and routing \textit{graph} of the \textit{map} he created are shown (/FMA010/). He selects the ``Create building'' tool and is prompted for a building name and a file name (for the XML file where the building data will be stored). He types ``H\"orsaal am Fasanengarten'' and ``hsaf\_map.xml''.
+Then he clicks on the \textit{background image} to place vertices that define the outline of the building as a polygon (/FMA090/). He clicks the first building-vertex again, closing the polygon.\\
+Upon closer inspection, however, he notices that he completely mis-placed most of the vertices and decides to try again. He selects the building by clicking it (/FMA120/) and presses the delete key: the building is gone (/FMA180/).\\
+He then repeats the steps to create a building, this time paying more attention. With that, the building is created.\\
+He now wants to add an entrance to the building. To do that, he selects ``Add entrance'' from the program menu and clicks the outline, creating a vertex with the
+``entrance'' \textit{property}.\\
+Then he notices that the building is not exactly at the right position, which he corrects by dragging it (/FMA160/).\\
+When he enters the building by double clicking it, there is already a vertex present, representing the counterpart to the entrance outside he just created. There is no \textit{background image} yet, so only that single vertex is shown.\\
+He selects ``Change background image'' from the program menu and enters ``HSaF\_FLOOR\_0.png''. The file is loaded and now shown as the new \textit{background image} behind the vertex (/FMA050/).\\
+Before mapping out the ground floor, he wants to add the 1st floor. He selects ``Add floor plan map'' and when prompred for the floor level and \textit{background image} he selects ``1'' and ``HSaF\_FLOOR\_1.png''. Using the slider next to the \textit{map}, he can now switch between the floors.\\
+After mapping out most of both floors, he wants to add stairs to connect them. For that, he chooses the ``Add stairs''-tool and clicks two vertices, one on floor 0 and one on floor 1 (/FMA100/). A small arrow pointing up and down respectively is now shown next to the stair-vertices.\\
+Done with his work on the \textit{map} for now, he choses ``Save'' from the program menu to save his progress and exits the program by closing the window.
+
+
+
+
+% -------- OLD TEST SCENARIOS
+%\subsection{Routing - Test scenarios}
+
+%\paragraph{Test scenario 1 - Request for the shortest path} ~\\
+%
+%\noindent \textit{The user wants to search for the shortest path between two points.}
+%
+%\begin{numerate}[TS1]
+%\item Start the application.
+%\item Zoom the \textit{map}.
+%\item Select a point on the \textit{map} by clicking on the \textit{map}.
+%\item Use this point as a starting point.
+%\item Select destination by typing its name.
+%\item Start search for the shortest path between given points.
+%\item After the shortest path is displayed apply a filter and repeat the request (e.g. use no stairs).
+%\item Exit the application.
+%\end{numerate}
+%
+%%\paragraph{Test scenario 2 - Search and Display location} ~\\
+%
+%\noindent \textit{The user wants to search and view a building on the map.}
+%
+%\begin{numerate}[TS2]
+%\item Start the application.
+%\item Search for a building by providing initial letters of its name and using the search suggestions.
+%\item Enter the building by double clicking it.
+%\item View different \textit{floor plan maps} of the building.
+%%\item Search a restroom in the building.
+%\item Leave the building.
+%\item Exit the application.
+%\end{numerate}
+%
+%\subsection{Administration tool - Test scenarios}
+%
+%\begin{numerate}[TS3]
+%\item Start the application.
+%\item Select the ``Select map image'' option from the menu.
+%\item Select a valid picture file in the ``Choose file'' dialog.
+%\item Select the ``Add vertices'' tool.
+%\item Click at different places on the displayed \textit{background image} to place vertices.
+%\item Click on the ``Modify'' tool and use it to select a vertex.
+%\item Select the empty ``name'' \textit{property} of the vertex and modify its value.
+%\item Save the \textit{map}.
+%\item Exit the application.
+%\end{numerate}
+

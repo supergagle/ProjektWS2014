@@ -1,0 +1,42 @@
+\subsubsection{Administration Tool}
+
+\begin{numerate}[FMA]
+\item[Display Routing Graph]
+The \textit{routing graph} is displayed on the \textit{map}.
+%\item \textbf{/FM060/} \\
+%Display/Draw edge
+%\item \textbf{/FM070/} \\
+%Display/Draw vertex
+	\item[Create a Map or Floor plan map]
+		By clicking on the corresponding buttons, the administrator can create a new \textit{map} or \textit{floor plan map} by loading a \textit{background image}. At the beginning there is an empty \textit{routing graph} on it.
+		\item[Open a Map or Floor plan map]
+		The administrator can open a \textit{map} or a \textit{floor plan map}.
+		\item[Save a Map or Floor plan map]
+		The administrator can save a \textit{map} or a \textit{floor plan map}.
+	\item[Exchange Background Image] The administrator can exchange the \textit{background image} of the \textit{map} or \textit{floor plan map}.
+	\item[Set Scale] The administrator can set the scale (e.g. the size of 100px in meter) of the \textit{background image} by defining two points on the image and entering their distance in meter.
+	\item[Create Vertex] The administrator can create a vertex by clicking on the current \textit{background image}.
+	\item[Create Edge] The administrator can create an edge by clicking on two vertices.
+	\item[Create Building] The administrator can create a building by drawing a polygon. This polygon represents the outline of the building.
+	%\item[Create Entrances] The administrator can create entrances of a building.
+	\item[Add Edges between Floor plan maps] The administrator can add edges between two different \textit{floor plan maps} of a building. This can be used to add stairs to a \textit{floor plan map} by defining a special edge between two vertices.
+		\item[Select Vertex or Edge]
+	When the administrator selects a vertex or an edge, this vertex or edge is shown in a different color.
+		\item[Select Building]
+	When the administrator selects a building, the outline of the building is shown in a different color.
+	\item[Modify Properties] If an edge, vertex or building is selected, \textit{properties} of the current selection are shown in a seperate part of the \textit{GUI} where the user can edit them.
+		\begin{addmargin}[7mm]{0mm}
+			These \textit{properties} include: Name, address, building number, building entrance, contains stairs (needed for wheelchair users) and opening hours.
+			Some of them can only be attached to vertices and some only to edges. For example, an edge cannot be a ``building entrance''.
+		\end{addmargin}
+	\addtocounter{enumi}{-9} % Fix for a numeration-bug
+	\item[Move Vertex] The administrator can move a vertex by selecting it and dragging it.
+	\item[Move Edge] The administrator can move an edge by moving its end-vertices.
+	\item[Move Building] The administrator can move a building by selecting it and dragging it.
+	\item[Remove Vertex or Edge] The administrator can remove a vertex or an edge by selecting it and pressing the delete key on the keyboard.
+	\item[Remove Building] The administrator can remove a building by selecting it and pressing the delete key on the keyboard.
+%	\item \textbf{/FA06[Linking] Then user can create links between vertices of different maps
+%		\begin{addmargin}[7mm]{0mm}
+%			In order to store maps seperately and connect them with each other, vertices on different maps will be identified with each other by linking them. I.e., it is possible to split the map of the whole campus into smaller maps and put them together. ( TODO: Maybe it will be helpful to show two maps at the same time in the GUI in order to select the vertices identified with each other?)
+%		\end{addmargin}
+\end{numerate}
