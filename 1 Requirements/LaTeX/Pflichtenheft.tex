@@ -1,0 +1,64 @@
+\documentclass[hidelinks, a4paper, 11pt]{scrartcl}
+
+% Use-Packages:
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{enumerate}
+
+% Defined short commands please here
+\def\app{Name of the Application}
+
+\makeatletter
+
+\author{Rashad Asgarbayli,\\ Kanan Ibrahimov,\\ Philipp Schoch}
+
+\title{\vspace{3cm}
+%\includegraphics[scale=2.5]{Logo.png}\\
+\app
+\vspace{20mm}}
+
+\subtitle{Pflichtenheft\\ Functional Specifications Document}
+
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+\newpage
+
+\pagenumbering{roman}
+\tableofcontents
+
+\newpage
+
+\pagenumbering{arabic}
+
+\section{Introduction}
+
+\paragraph{}Blablabla
+
+\input{Prod_objectives}
+
+\input{Prod_usage}
+
+\input{Prod_environment}
+
+\input{Prod_functional_req}
+
+\input{Prod_non_functional_req}
+
+\input{Prod_data}
+
+\input{Prod_test}
+
+\input{Prod_system_model}
+
+\input{Prod_gui}
+
+\input{Prod_glossary}
+
+\end{document}
